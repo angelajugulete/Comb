@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/add.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/comp.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/mux2.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/mux4.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/or_bw.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/rom.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/shl.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/sub.sv" \
+"../../../../sb4_refacut_cv.srcs/sources_1/new/top.sv" \
+"../../../../sb4_refacut_cv.srcs/sim_1/new/top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
